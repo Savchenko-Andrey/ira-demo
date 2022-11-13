@@ -451,6 +451,7 @@ img {
 
 .hero {
     margin: 0;
+    background-color: rgb(76, 74, 74);
     background-image: url('./img/hero-components/background.jpg');
     background-repeat: no-repeat;
     opacity: 1;
@@ -710,19 +711,24 @@ img {
         }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023) {}
+@media only screen and (min-width: 767px) and (max-width: 1023) {
+
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
     .hero {
-        min-width: 100%;
+        width: 100%;
         height: 100%;
-    }    
+    }
     .hero-left {
-        width: 50vw;
+        width: 55vw;
         height: 100vh;
+        background-size: cover;
     }
     .hero-left__icons {
         display: flex;
+        width: 60px;
+        height: 60px;
         margin-top: 58px;
         margin-left: 34px;
     }
@@ -742,7 +748,7 @@ img {
     .red {
         background-color: #870F1D;
         width: 2px;
-        height: 93vh;
+        height: 92vh;
         margin-left: 5px;
     }
     .hero-right__title {
@@ -750,61 +756,58 @@ img {
         width: 386px;
         height: 161px;
         margin-top: 50px;
-        margin-left: 167px;
+        margin-left: 300px;
         z-index: 2000;
         margin-bottom: 90px;
     }
     .hero-title {
         font-family: 'Sora', sans-serif;
         text-align: left;
-        font-size: 41px;
+        font-size: 47px;
         width: 466px;
         letter-spacing: 2.4px;
         color: #FFFFFF;
     }
     .hero-title__color {
         position: absolute;
-        top: 79px;
+        top: 92px;
         left: -16px;
-        width: 420px;
-        height: 79px;
+        width: 470px;
+        height: 89px;
         background-color: #870F1D;
         z-index: -1;
     }
     .hero-contact {
         display: flex;
         flex-direction: column;
-        width: 686px;
-        margin-left: 51px;
+        justify-content: center;
+        align-items: center;
+        width: 516px;
+        margin-left: 185px;
     }
     .after-title {
         font-family: 'Sora', sans-serif;
         text-align: center;
         font-size: 18px;
         width: 386px;
-        letter-spacing: 2.4px;
         color: #ffffff;
         margin-bottom: 60px;
     }
     .hero-link {
         font-family: 'Sora', sans-serif;
         font-size: 15px;
-        width: 300px;
-        letter-spacing: 2.4px;
+        width: 260px;
         color: #ffffff;
         text-decoration: none;
     }
     .hero-list__title {
         font-family: 'Sora', sans-serif;
         font-size: 15px;
-        width: 686px;
-        letter-spacing: 2.4px;
         color: #ffffff;
         text-decoration: none;
     }
     .hero-flex__title {
         display: flex;
-        /* flex-direction: column */
         flex-direction: row;
     }
     .hero-list {
@@ -837,11 +840,13 @@ img {
         height: 100%;
     }
     .hero-left {
-        width: 60vw;
+        width: 55vw;
         height: 100vh;
     }
     .hero-left__icons {
         display: flex;
+        width: 60px;
+        height: 60px;
         margin-top: 58px;
         margin-left: 25px;
     }
@@ -895,7 +900,7 @@ img {
         display: flex;
         flex-direction: column;
         width: 686px;
-        margin-left: 51px;
+        margin-left: 177px;
     }
     .after-title {
         font-family: 'Sora', sans-serif;
@@ -953,16 +958,18 @@ img {
 }
 
 @media only screen and (min-width: 1920px) and (max-width: 4000px) {
-   .hero{ 
+    .hero{ 
         width: 100%;
         height: 100%;
-   }
+    }
     .hero-left {
         width: 100vw;
         height: 100vh;
     }
     .hero-left__icons {
         display: flex;
+        width: 60px;
+        height: 60px;
         margin-top: 58px;
         margin-left: 34px;
     }
@@ -988,7 +995,7 @@ img {
         width: 686px;
         height: 315px;
         margin-top: 100px;
-        margin-left: 263px;
+        margin-left: 390px;
         z-index: 2000;
         margin-bottom: 90px;
     }
@@ -1013,7 +1020,7 @@ img {
         display: flex;
         flex-direction: column;
         width: 686px;
-        margin-left: 51px;
+        margin-left: 225px;
     }
     .after-title {
         font-family: 'Sora', sans-serif;

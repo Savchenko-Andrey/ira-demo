@@ -476,7 +476,7 @@ img {
     margin-left: 0;
 }
 
-@media only screen and (min-width: 380px) and (max-width: 766px) {
+@media only screen and (min-width: 360px) and (max-width: 766px) {
     .hero {
             /* width: 100vw; */
             height: 926px;
